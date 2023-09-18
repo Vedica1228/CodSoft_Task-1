@@ -1,0 +1,424 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    color: #444;
+}
+
+header {
+    background: linear-gradient(135deg, #d26b8a, #95caf0, #ff2345);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    flex: 0.3;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1rem;
+}
+
+.about-section {
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.cta-button {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-button a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #d26b8a, #95caf0, #ff2345);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.testimonial h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 1rem;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: linear-gradient(135deg, #d26b8a, #95caf0, #ff2345);
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.why-choose-us {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.why-choose-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.why-choose-us p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.featured-courses {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.featured-courses h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.featured-courses p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.faq {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.faq .question {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.faq .answer {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.featured-instructors {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.featured-instructors h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.featured-instructors p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.blog {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.blog h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.blog .post {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.get-the-app {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.get-the-app h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.get-the-app p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.testimonials .testimonial {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.pricing {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.pricing p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.latest-news {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.latest-news h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.news-item h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.news-item p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Partners */
+.partners {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.partners h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.partner-logo {
+    margin-top: 20px;
+}
+
+.partner-logo img {
+    max-width: 100%;
+    height: auto;
+}
+        /* FAQ */
+        .faq {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.question {
+    margin-top: 20px;
+    padding: 20px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.question h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.question p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Test Preparation */
+.test-preparation {
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(90deg, #bab8b9 21%, #e3afaf 31%, #8c7d99 50%);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.test-preparation h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.test-prep-description {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.test-prep-button {
+    margin-top: 20px;
+}
+
+.test-prep-button a {
+    display: inline-block;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #d26b8a, #95caf0, #ff2345);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+footer {
+    background: linear-gradient(135deg, #d26b8a, #95caf0, #ff2345);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
